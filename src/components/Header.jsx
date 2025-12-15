@@ -7,9 +7,9 @@ const Header = () => {
       <h1 className=" text-3xl font-semibold px-4 py-4">Dev-Profile 🚆</h1>
       <nav className=" flex space-x-5">
         <Link href={"/"}>Home</Link>
+        <Link href={"/stories"}>Stories</Link>
         <Link href={"/about"}>About</Link>
         <Link href={"/tutorials"}>Tutorials</Link>
-        <Link href={"/stories"}>Stories</Link>
         <Link href={"/login"}>Login</Link>
         <Link href={"/register"}>Register</Link>
       </nav>
